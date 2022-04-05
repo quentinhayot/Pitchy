@@ -6,5 +6,12 @@ let package = Package(
   products: [
       .library(name: "Pitchy", targets: ["Pitchy"]),
       .library(name: "Pitchy-Dynamic", type: .dynamic, targets: ["Pitchy"]),
+  ],
+  dependencies: [],
+  targets: [
+      .target(
+          name: "Pitchy",
+          dependencies: [],
+          path: "Pitchy"),
   ]
 )
