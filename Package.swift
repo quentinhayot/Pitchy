@@ -2,5 +2,9 @@
 import PackageDescription
 
 let package = Package(
-  name: "Pitchy"
+  name: "Pitchy",
+  products: [
+      .library(name: "Pitchy", targets: ["Pitchy"]),
+      .library(name: "Pitchy-Dynamic", type: .dynamic, targets: ["Pitchy"]),
+  ]
 )
