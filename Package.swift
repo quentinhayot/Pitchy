@@ -12,6 +12,6 @@ let package = Package(
       .target(
           name: "Pitchy",
           dependencies: [],
-          path: "Pitchy"),
+          path: "Pitchy/iOS"),
   ]
 )
